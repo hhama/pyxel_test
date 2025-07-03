@@ -36,6 +36,5 @@ class ImageApp:
         pyxel.blt(x, y, 0, 0, 0, 16, 16)
         # pyxel.text(16, 40, f"{y}", 7)
 
-ImageApp()
-
-# TextApp()
+# ImageApp()
+TextApp()
