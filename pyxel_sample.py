@@ -34,7 +34,7 @@ class ImageApp:
         x = (pyxel.frame_count * 2) % 160
         y = (int(pyxel.frame_count / 80) * 10) % 120
         pyxel.blt(x, y, 0, 0, 0, 16, 16)
-        # pyxel.text(16, 40, f"{y}", 7)
+        # pyxel.text(150, 100, f"{y}", 7)
 
-# ImageApp()
-TextApp()
+ImageApp()
+# TextApp()
