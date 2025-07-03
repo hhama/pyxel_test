@@ -30,7 +30,8 @@ class ImageApp:
     def draw(self):
         pyxel.cls(0)
         old_colors = pyxel.colors.to_list()
-        pyxel.colors[8] = old_colors[pyxel.frame_count % 16]
+        pyxel.colors[8] = old_colors[7]
+        # pyxel.colors[8] = old_colors[pyxel.frame_count % 16]
         x = (pyxel.frame_count * 2) % 160
         y = (int(pyxel.frame_count / 80) * 10) % 120
         pyxel.blt(x, y, 0, 0, 0, 16, 16)
